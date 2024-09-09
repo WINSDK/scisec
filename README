@@ -1,0 +1,3 @@
+run proxy before hand:
+    proxy git --- https://gitlab.torproject.org/tpo/core/arti
+    command   --- arti -o address_filter.allow_onion_addrs=true proxy -p 5050
